@@ -1,0 +1,178 @@
+/* Universal Code */
+
+*{
+    margin: 0;
+    padding: 0;
+   
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.container {
+    padding: 10px 150px;
+}
+
+
+/* Navbar_start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 10px 0;  
+}
+
+.header_logo{
+     font-size: 30px;
+     font-weight: bold;
+     color: #f9faf8;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav li a{
+    color:grey;
+}
+
+/* Navbar_End */
+
+/* Hero_Container_Start */
+
+.container.hero{
+    background-color: #1f2937;
+}
+
+.hero .content{
+    display: flex;
+  padding: 60px 0px;
+  flex-wrap: wrap;
+    
+}
+
+.hero .flex_item{
+    flex:1
+  
+}
+.hero .text{
+    padding-right: 40px;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+    margin-bottom:10px ;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #bdc1c8 ;
+    margin-bottom: 20px;
+}
+.hero button{
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border-radius:10px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.hero .image{
+    width: 500px;
+    height: 250px;
+    flex: 1;
+}
+
+/* Hero_Container_End */
+
+/* Hero2_start */
+
+.hero2{
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.hero2 .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.hero2 .flex_item div{
+    height: 200px;
+    width: 200px;
+    border:5px solid #3882f6 ;
+    border-radius: 20px;
+}
+
+.hero2 h1{
+    margin-bottom: 50px;
+}
+
+/* hero2_end */
+
+/* hero3_end */
+
+.hero3{
+   
+    padding: 100px 300px;
+    background-color: #E5E7EB;
+}
+
+.hero3 em{
+    font-size: 36px;
+   
+    font-weight:100;
+}
+.hero3 span{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+  
+}
+
+.hero4{
+   padding: 100px 200px;
+}
+
+.hero4 .content{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 50px 0px;
+    border-radius: 10px;
+}
+
+.hero4 .text {
+     font-size:20px;
+     font-weight: bold;
+}
+
+#hero4span{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.hero4 button{
+    padding: 5px 30px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
